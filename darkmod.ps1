@@ -97,14 +97,14 @@ function FULL-TWEAK {
 
 # ===== UI =====
 $form = New-Object Windows.Forms.Form
-$form.Text = "LASTBOSS"
+$form.Text = "层片始却专状育厂京识适属圆包火住调满县局照参红细引听该铁价"
 $form.Size = New-Object Drawing.Size(420,330)
 $form.StartPosition = "CenterScreen"
 $form.BackColor = "#0d0d0d"
 
 $title = New-Object Windows.Forms.Label
-$title.Text = "LASTBOSS SH!T"
-$title.ForeColor = "Cyan"
+$title.Text = "       最后的老板"
+$title.ForeColor = "Azure"
 $title.Font = New-Object Drawing.Font("Consolas",16,[Drawing.FontStyle]::Bold)
 $title.AutoSize = $true
 $title.Location = New-Object Drawing.Point(60,20)
@@ -122,9 +122,9 @@ function NewBtn($text,$y,$action){
     $form.Controls.Add($b)
 }
 
-NewBtn "🔥 FULL TWEAK (GAMING)" 90 { FULL-TWEAK }
-NewBtn "⚡ NETWORK BOOST" 140 { Apply-Network }
-NewBtn "🧹 CLEAN TEMP" 190 { Apply-CleanTemp }
+NewBtn " I FULL TWEAK" 90 { FULL-TWEAK }
+NewBtn " II NETWORK BOOST" 140 { Apply-Network }
+NewBtn " III CLEAN" 190 { Apply-CleanTemp }
 
 $form.TopMost = $true
 $form.ShowDialog()
